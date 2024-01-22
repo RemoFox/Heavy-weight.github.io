@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <title>Clark</title>
+</head>
+<body>
+
+    <header class="header" >
+        <section class="flex">
+            <a href="#home" class="logo"><img src="images/ir.jpg" alt=""></a>
+            <nav class="navbar">
+             <a href="#home">home</a>
+             <a href="#about">about</a>
+             <a href="#review">review</a>
+             <a href="#contact">contact</a>
+             <a href="#sign in">sign in +</a>
+            </nav>
+            <div class="search"><input type="search"placeholder="search"></div>
+            <div id="menu-btn" onclick="mm();" class="fas fa-bars"></div>
+           
+        </section> 
+    </header>
+
+    <div class="tt"> <section class="home" id="home">
+      <div class="row">
+         <div class="content">
+          <!-- <div class="fox"><h2>fox<span> .for</span></h2></div> -->
+           <h3> clark<span> trading</span></h3>
+           <div class="bt"><a href="%">click here</a></div>
+        </div>
+           <div class="images">
+             <img src="images/item396432.png" alt="">
+         </div>
+    </div>
+    </section></div>
+   
+<section class="about" id="about">
+   <h3>about<span> us</span></h3>
+ <div class="row">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem pariatur eligendi 
+  architecto magni totam, sequi nam mollitia ratione, reprehenderit molestias officiis
+   voluptatibus dolores laudantium.
+   Possimus, aspernatur blanditiis. Commodi, ullam.</p>
+   <img src="images/ir.jpg" alt="">
+  </div>
+
+</section>
+
+
+     <section class="review"id="review">
+            <h3>review<span> clark</span></h3>
+             <div class="swiper about-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                    <img src="images/1000_F_15055150_siGP2oCxY9r3yUksiMM806NI0aSPaRdJ.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <img src="images/CLARK–-Gen2-C20-25-30-35.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <img src="images/360_F_15041569_Zp3nlqTs1ZX3LXh7JbOZhkwefUtqOUdn.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <img src="images/CPCD-40-50-Diesel-Forklift.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <img src="images/item396432.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <img src="images/360_F_15041569_Zp3nlqTs1ZX3LXh7JbOZhkwefUtqOUdn.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quisquam.</p>
+                  </div>
+                  
+                </div>
+               <div class="swiper-pagination"></div> 
+            </div>
+     </section>
+ 
+
+      <section class="contact" id="contact">
+        <h3>contact<span> us</span></h3>
+        <div class="row2">
+            <div class="owner">
+                 <h3>eng: <span>Remon Hany</span></h3>
+                     <h2>012.........</h2>
+                    <img id="remo" src="images/IMG_20231107_190734.png" alt="">
+                   <div class="social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a></div> 
+        </div>
+        <div class="owner">
+            <h3>eng: <span>Ehab Zaki</span></h3>
+                <h2>012.........</h2>
+               <img id="hopa" src="images/ihab.png"alt="">
+              <div class="social">
+               <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a></div> 
+          
+   </div>
+        </div>
+      </section>
+
+<!---->
+      <section class="sign" id="sign in">
+        <h3 class="heading">sign<span> in</span></h3>
+        <div class="row">
+            <div class="image">
+                <img src="images/360_F_15041569_Zp3nlqTs1ZX3LXh7JbOZhkwefUtqOUdn.jpg" alt="">
+            </div>
+          <form action="" method="post">
+            <span>your name</span>
+            <input type="text" required placeholder="enter your full name" maxlength="50" name="name" class="box">
+            <span>your email</span>
+            <input type="email" required placeholder="enter your valie email" maxlength="50" name="email" class="box">
+            <span>your number</span>
+            <input type="number" required placeholder="enter your valie number" max="9999999999" min="0" name="number" class="box" 
+            onkeypress="if(this.value.length == 10) return false;">
+           
+            
+            
+       
+    
+
+
+
+
+      <footer class="footer">
+        <section>
+           <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-youtube"></a>
+           </div>
+           <div class="credit">&copy; copyright @ 2023 by <span>Remon Hany</span> | all rights reserved!</div>
+        </section>
+        </footer>
+       
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
