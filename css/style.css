@@ -578,9 +578,20 @@ margin-left: 27%;
                 text-align: center;
                 font-size: 2rem;
             }
+            .home .row .content h3 , .home .row .content span{
+                font-size: 8rem; 
+            }
  }
  
- 
+ @media(max-width:469px)
+ { 
+    .home .row .content h3,.home .row .content span{
+        font-size: 6rem; 
+    }
+    .home .row .content .bt{
+        margin:3rem 0 0 20rem
+    }
+ } 
 @media(max-width:380px)
  {
     html{
@@ -588,6 +599,15 @@ margin-left: 27%;
     }
    
  }
+ @media(max-width:318px)
+ {
+    .home .row .content h3,.home .row .content span{
+        font-size: 7rem; 
+    }
+    .home .row .content .bt{
+        margin:3rem 0 0 23rem
+    }
+ } 
 
  
  
